@@ -1,55 +1,69 @@
 h1 {
-    color = blue ;
+    color: #fefefe ;
   }
-  
+
+  h3 {
+    color:#fefefe;
+  }
   body {
-    background-color: antiquewhite;
-    color: red;
+
+    background-color: #000000;
+    color: #fdee30;
   }
-  
-  nav {
-  
-    background-color: #beb2b9;
-  
+
+  nav, p {
+
+    background-color: #000000;
+    color :#fdee30;
    padding: 1rem;
-  
+
   }
-  
+
   ul {
-  
+
     list-style-type: none;
-  
+
        padding: 0;
-  
+
       margin: 0;
-  
+
         display: flex;
-  
+
      justify-content: space-around;
-  
+
+     color:#fdee30;
+
     }
-  
+
     footer {
       list-style-type: none;
-  
+
        padding: 0;
-  
-  
-  
+
+
+
       margin: 0;
-  
+
         display: flex;
-  
+
      justify-content: space-around;
-  
+
     }
-  
-  
+
+   h2, .container  {
+    color :#fefefe
+
+
+    }
+
+    p {
+      color:#fdee30;
+    }
+
     /* .container > .inner > p { */
       /* font-weight: bold; */
       /* color: black; */
   /*  */
     /* } */
-  
-  
-  
+
+
