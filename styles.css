@@ -1,5 +1,5 @@
 h1 {
-    color: #fefefe ;
+    color: #deb922 ;
   }
 
   h3 {
@@ -8,37 +8,69 @@ h1 {
   body {
 
     background-color: #000000;
-    color: #fdee30;
+    color: #1ba098;
   }
 
-  nav, p {
+  nav {
 
-    background-color: #000000;
-    color :#fdee30;
-   padding: 1rem;
+    background-color: white;
+    color :#1ba0980;
+  padding: 1rem;
 
   }
 
-  ul {
+
+
+    /* }ul {
 
     list-style-type: none;
 
-       padding: 0;
+    padding: 0;
 
       margin: 0;
 
         display: flex;
 
-     justify-content: space-around;
+    justify-content: space-around;
 
-     color:#fdee30;
+    color:#1ba098; */
+
+
+    nav ul {
+      list-style-type: none;
+
+      padding: 0;
+
+        margin: 0;
+
+          display: flex;
+
+      justify-content: space-around;
+
+      color:#1ba098;
 
     }
+
+    na li {
+      color :#fefefe;
+      font-size: 16px;
+      cursor: finger;
+      transition: background-color 0.3s;
+    }
+
+    nav li:hover {
+      background-color: #red;
+    }
+
+nav i {
+  margin-right: 8px;
+}
+
 
     footer {
       list-style-type: none;
 
-       padding: 0;
+      padding: 0;
 
 
 
@@ -46,18 +78,17 @@ h1 {
 
         display: flex;
 
-     justify-content: space-around;
+    justify-content: space-around;
 
     }
 
-   h2, .container  {
-    color :#fefefe
-
+  h2, .container  {
+    color :#1ba098
 
     }
 
     p {
-      color:#fdee30;
+      color:#1ba098;
     }
 
     /* .container > .inner > p { */
@@ -66,4 +97,13 @@ h1 {
   /*  */
     /* } */
 
+@media (max-width : 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    padding: 10px;
+    text-align: center;
+  }
+}
 
